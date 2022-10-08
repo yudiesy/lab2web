@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <head>
+        <!-- menyisipkan css eksternal -->
+        <link rel="stylesheet" href="style_eksternal.css" type="text/css">
+        </head>
+    <head>
+        <title>CSS Dasar</title>
+        <style>
+        body {
+        font-family:'Open Sans', sans-serif;
+        }
+        header {
+        min-height: 80px;
+        border-bottom:1px solid #77CCEF;
+        }
+        h1 {
+        font-size: 24px;
+        color: #0F189F;
+        text-align: center;
+        padding: 20px 10px;
+        }
+        h1 i {
+        color:#6d6a6b;
+        }
+        </style>
+        </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Dasar</title>
+</head>
+<body>
+    <header>
+        <h1>CSS Internal dan <i>Inline CSS</i></h1>
+    </header>
+    <nav>
+        <a href="lab2_css_dasar.html">CSS Dasar</a>
+        <a href="lab2_css_eksternal.html">CSS Eksternal</a>
+        <a href="lab1_tag_dasar.html">HTML Dasar</a>
+    </nav>
+    <!-- CSS ID Selector -->
+    <div id="intro">
+        <h1>Hello World</h1>
+        <p style="text-align: center; color: #ccd8e4;"></p>
+        <p> Kami sedang belajar HTML dan CSS dasar, pada mata kuliah <b>Pemrograman
+Web</b> di <i>Universitas Pelita Bangsa</i>. Pelajaran pertama yang kami dapat
+adalah membuat tampilan web sederhana dalam rangka mengenal tag-tag dasar HTML
+dan CSS.</p>
+<h4>Perbedaan elemen h1 dan intro h1</h4>
+<p> <i>Elemen heading (h1,h2,h3,h4,h5,h6)</i> merupakan elemen HTML yang digunakan untuk menciptakan heading / judul artikel pada halaman HTML. Elemen heading h1 merupakan heading yang paling penting atau paling tinggi dan elemen heading h6 merupakan heading yang paling kecil.</p>
+<p> <i> #intro </i> {color: blue}. Contoh tersebut menyeleksi element yang memiliki attribute ID dengan value "intro" agar tulisannya berwarna biru dan didalam html, kita sisipkan attribute: id="intro".</p>
+<h4>elemen HTML terdapat ID dan Class,</h4>
+<p><i>selektor class</i>adalah selektor yang memilih elemen berdasarkan nama class yang diberikan. Selektor class dibuat dengan tanda titik di depannya.contoh : </p>
+
+<p>Saya sedang belajar <b class="pink">CSS</b> di petanikode.com.</p>
+<p><i>selektor ID</i> hampir sama dengan class. Bedanya, ID bersifat unik. Hanya boleh digunakan oleh satu elemen saja.
+
+    Selektor ID ditandai dengan tanda pagar (#) di depannya.
+    
+    Contoh:</p>
+    <header id="header">
+        <h1>Selamat Datang di Website Saya</h1>
+    </header>
+
+<p> <b> Deklarasi yang ditampilkan dalam browser ini adalah selektor ID </b></p>
+        <!-- CSS Class Selector -->
+        <a class="button btn-primary" href="#intro">Informasi selengkapnya.</a>
+    </div>
+</body>
+</html>
